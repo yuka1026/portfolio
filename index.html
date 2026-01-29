@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="第2章 Webページと情報デザイン（教材）">
+    <title>情報科指導法Ⅱ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="header">
+    <strong>09　Webページと情報デザイン</strong>
+</header>
+
+<div class="level1">
+    <h1>練習問題1</h1>
+    <p>教科書を見ながら、＜hn＞,＜p＞,＜br＞に<u>＜strong＞</u>タグで装飾しなさい。</p>
+    <div class="work-1">
+        <h2>テキストの表示</h2>
+<!---------練習問題1はここを編集-------------------------------------------------------------------------------------------------------->
+        <p>Webページの表示タイトルとリード文を記述する。表示タイトルと各見出しは、見出しタグ<strong>＜h</strong>n<strong>＞</strong>(nは1~6)で指定する。リード文と内容の文章は、段落タグ<strong>＜p＞</strong>で指定する。テキストエディタ内で改行してもブラウザ上では改行されないため、改行位置に<strong>＜br＞</strong>を指定する。</p>
+<!---------練習問題1ここまで------------------------------------------------------------------------------------------------------------>
+    </div>
+    <div class = "table">
+        <table>
+            <tr><th>装飾に使えるタグ</th><th>内容</th></tr>
+            <tr><td>＜strong＞,＜b＞</td><td><strong>太字にする</strong></td></tr>
+            <tr><td>＜u＞</td><td><u>下線を引く</u></td></tr>
+            <tr><td>＜i＞,＜em＞</td><td><i>斜めにする</i></td></tr>
+            <tr><td>＜mark＞</td><td><mark>マーカーを引く</mark></td>
+        </table>
+    </div>
+    <h1>応用</h1>
+    <img src="img/ouyourei.png" width="1000px">
+    <p>上記画像を参考に、同じような装飾になるように編集する。</p>
+    <ol>
+        <li>「CMS」を太字にする</li>
+        <li>「Content Manegement System」を斜体にする</li>
+        <li>「専門的な知識がなくても～」に青色の下線を引く</li>
+        <li>「個人ブログ」をマーカーで引く</li>
+    </ol>
+    <p>3.のみspanを使用しています。<a href="https://mom-neuroscience.com/html-css-underline/">リンク先</a>を参考に作れます。</p>
+
+    <div class="work-2">
+<!---------応用はここを編集-------------------------------------------------------------------------------------------------------->
+        <p><b>CMS</b>とは、<em>Content Manegement System</em>（コンテンツ管理システム）のことで、<span style="border-bottom: 5px solid blue;">専門的な知識がなくてもホームページの作成や更新ができる仕組みのこと。</span></p>
+        <p>文章や画像を入力するだけでページを作成できるため、とくに<mark>個人ブログ</mark>などでも広く利用されている。</p>
+        <p>また、複数のユーザーが共同で編集できるという特徴もあり、情報の公開や管理を効率よく行うことができる。</p>
+<!---------応用ここまで------------------------------------------------------------------------------------------------------------>
+    </div>
+
+<div class="level2">
+    
+    <div class="text">
+        <h1>練習問題2</h1>
+        <p>➀左の枠にimgファイルに入っている画像を添付<br>
+           ➁右上にはスライドのようにテキスト「」にリンクを挿入<br>
+           ➂左下のテキストを箇条書きに直す。</p>
+    </div>
+<!-------練習問題2はここから------------------------------------------------------------------------------------------------>
+    <div class="problem-area">
+        <div class="left-box">
+            <img src="img/renshu2.jpeg" width="450px"> <!--ここに練習問題2の画像を張り付ける-->
+        </div>
+
+        <div class="right-box">
+            <div class="right-top">
+                <p>使用したWebサイト</p><br>
+                    <a href="https://www.microwave-creative.co.jp/column/detail/business-site-cms-feature/">ここをクリックして表示</a><!--ここにリンクを張り付ける-->
+            </div>
+            <div class="right-bottom">
+                <ul>
+                    <li>クリエイティブ系ポートフォリオサイト</li><!---ここに提案されたプロジェクトをリスト入力--->
+                    <li>サステナブルブランド・環境系スタートアップのサイト</li><!---ここに提案されたプロジェクトをリスト入力--->
+                    <li>カフェ・レストラン・フードブランドのLP</li><!---ここに提案されたプロジェクトをリスト入力--->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    教材参考：<a href="https://www.jikkyo.co.jp/book/detail/22023322" target="_blank" style="color: white; text-decoration: underline;">高校情報Ⅰ Python 第2章</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: white;
+}
+
+.header {
+    background: #3399ff;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.level1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 40px;
+    max-width: 1200px;
+}
+.work-1 {
+    background: #eee;
+    padding: 20px;
+    border-radius: 20px;
+}
+.table {
+    background: skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    max-width: 400px;
+}
+
+.work-2 {
+    background: #eee;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.level2 {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.problem-area {
+    display: flex;
+    gap: 30px;
+}
+
+.left-box {
+    width: 450px;
+    height: 350px;
+    background: khaki;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-box {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-top,
+.right-bottom {
+    background: khaki;
+    height: 95px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer {
+    width: 100%;
+    max-width: 1150px;
+    background: skyblue;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
